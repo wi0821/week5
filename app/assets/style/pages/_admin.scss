@@ -1,0 +1,61 @@
+.admin {
+	&-Content {
+		padding: 12px 32px;
+			a {
+				color: #000;
+				&:nth-last-child(2n+1) span{
+					margin-left: 24px;
+				}
+
+			}
+			td span:hover {
+				color: $selectColor;
+			}
+
+			&-Pagination {
+				li a {
+					color: $mainColor;
+				}
+				span {
+					margin: 0;
+					color: #198754;
+				}
+
+				&-Arrow {
+					a {
+						padding: 0;
+					}
+
+					span {
+						padding: 6px 6px;
+					}
+				}
+			}
+		}
+
+	&-Profile-Modal-Content {
+		p {
+			margin-bottom: 0;
+			font-size: 14px;
+			background: $ListColor;
+		}
+
+	}
+}
+
+.modal-Image {
+	width: 140px;
+	height: 140px;
+}
+
+.modal-footer button {
+	padding: 8px 32px;
+	font-weight: 700;
+}
+
+.iconExpand {
+	transition: .4s;
+	&.active {
+		transform:scaleY(-1);
+	}
+}

@@ -1,0 +1,21 @@
+*,*::before,*::after{
+	box-sizing: border-box;
+  }
+
+body {
+	font-family: "Lato", sans-serif;
+	line-height: 1.5;
+	color: $mainColor;
+}
+
+a {
+	text-decoration: none;
+}
+
+h1 {
+	padding-left: 32px;
+}
+
+tr {
+	cursor: pointer;
+}

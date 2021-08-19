@@ -12,7 +12,7 @@ $(document).ready(function() {
         $('#assignment-Reply').toggleClass('d-none');
      });
     $('.iconExpand').click(function (e) {
-        // e.preventDefault();
+        e.preventDefault();
         $('.iconExpand').toggleClass('active');
     });
 });

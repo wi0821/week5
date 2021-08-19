@@ -1,0 +1,9 @@
+.text-ind-2 {
+	font-size: 14px;
+	text-indent: 16px;
+	span {
+		font-family: 'Roboto Mono', monospace;
+		background: $ListColor;
+		color: $selectColor;
+	}
+}
